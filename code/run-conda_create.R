@@ -66,6 +66,7 @@ run.conda_create <- function(
     ### ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ###
     cat(paste0("\n",thisFunctionName,"() quits."));
     cat("\n### ~~~~~~~~~~~~~~~~~~~~ ###\n");
+    print("Don't forget to authenticate with:\n'earthengine authenticate --auth_mode=notebook'")
     return( my.python.path );
 
     }
